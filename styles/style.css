@@ -34,7 +34,6 @@ ul {
 }
 
 .heder-top {
-  padding: 20px 0;
   background: #ffffff;
   box-shadow: inset 0px -1px 0px rgba(66, 66, 66, 0.4);
 }
@@ -65,12 +64,13 @@ ul {
 }
 
 .menu_link {
+  display: inline-block;
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
   color: #353535;
   text-decoration: none;
-  padding: 24px 0px;
+  padding: 25px 0px;
 }
 
 .menu-item:hover .sub_menu_list {
@@ -80,7 +80,7 @@ ul {
 .sub_menu_list {
   right: -60px;
   display: none;
-  top: 50px;
+  top: 75px;
   position: absolute;
   width: 229px;
   padding: 32px 24px;
